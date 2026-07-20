@@ -7,7 +7,10 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
-group = "org.koitharu"
+// Nyora fork of kotatsu-parsers-redo with all site scrapers stripped (Play compliance): the
+// MangaParserSource enum is reduced to a single @Broken STUB; sources come from the runtime
+// data-driven catalogue instead. Consumed as com.github.Nyora-Manga:kotatsu-parsers-stripped.
+group = "com.github.Nyora-Manga"
 version = "1.0"
 
 tasks.test {

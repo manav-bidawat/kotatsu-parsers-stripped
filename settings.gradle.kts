@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kotatsu-parsers"
+rootProject.name = "kotatsu-parsers-stripped"
 include("kotatsu-parsers-ksp")
